@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <base target="_top">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>เว็บแอป</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <meta name="theme-color" content="#1769ff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style"
+          content="default">
+    <meta name="apple-mobile-web-app-title" content="QQ Calendar">
+
+    <title>QQ Calendar - ตารางคิวงาน</title>
+
+    <!-- ไอคอนเว็บไซต์ -->
+    <link rel="icon" type="image/png"
+          href="qq-calendar-icon-512.png">
+
+    <!-- ไอคอนหน้าจอโฮม iPhone -->
+    <link rel="apple-touch-icon"
+          href="apple-touch-icon.png">
+
+    <!-- ตั้งค่า Web App -->
+    <link rel="manifest" href="manifest.json">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            background: #f4f7ff;
+        }
+
+        iframe {
+            display: block;
+            width: 100%;
+            height: 100vh;
+            height: 100dvh;
+            border: none;
+        }
+    </style>
 </head>
+
 <body>
-    <iframe style="width: 100%; height: 100vh;" scrolling="yes" src="https://script.google.com/macros/s/AKfycbxv0xq8KduKCXFFLLEGUNb6_cXQDZsMTOBgHk2D5yjT4s8zhdSpieQZaJFYGX1Or3nb/exec" frameborder="0"></iframe>
+    <iframe
+        src="https://script.google.com/macros/s/AKfycbxv0xq8KduKCXFFLLEGUNb6_cXQDZsMTOBgHk2D5yjT4s8zhdSpieQZaJFYGX1Or3nb/exec"
+        title="QQ Calendar ตารางคิวงาน"
+        allowfullscreen>
+    </iframe>
 </body>
 </html>
