@@ -1,0 +1,17 @@
+{
+  "name": "QQ Calendar - ตารางคิวงาน",
+  "short_name": "QQ Calendar",
+  "description": "ระบบตารางคิวงาน",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f7ff",
+  "theme_color": "#1769ff",
+  "icons": [
+    {
+      "src": "qq-calendar-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
